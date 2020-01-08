@@ -1,5 +1,6 @@
 import Vue from 'vue';
-window.Vue = Vue;
+window.Vue = require('vue');
+
 const { vueApp } = require("../app.js")
 
 describe('test vue cdn', function () {
