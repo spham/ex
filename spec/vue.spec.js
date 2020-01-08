@@ -1,5 +1,6 @@
 import Vue from 'vue';
-window.Vue = require('vue');
+//window.Vue = require('vue');
+global.Vue = require('vue');
 
 const { vueApp } = require("../app.js")
 
