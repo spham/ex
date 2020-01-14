@@ -1,14 +1,11 @@
-import Vue from 'vue';
-//window.Vue = require('vue');
+//import vueApp from '../app.js';
+
 global.Vue = require('vue');
 
-const { vueApp } = require("../app.js")
+ const { vueApp } = require("../app.js")
 
 describe('test vue cdn', function () {
- 
     it('should run', function () {
-      return true
+      console.log(vueApp.hello())
     });
-    
-  
 });
